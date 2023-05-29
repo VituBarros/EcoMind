@@ -1,0 +1,31 @@
+<resources>
+
+    //login
+    <string name="app_name">EcoMind</string>
+    <string name="login">Username or email</string>
+    <string name="senha">Password</string>
+    <string name="entrar">Login</string>
+    <string name="continuarlogado">Remember me</string>
+
+    //tela explicativa do app
+    <string name="continuarparaperfil">be part of it</string>
+    <string name="textodeapoio">With the increasing concern about the environment and the impacts of pollution, technology has proven to be an important ally in the search for sustainable solutions. In this context, the Ecomind app emerges with the aim of facilitating the fight against pollution cases, whether they are related to soil, water, or even sound and visual aspects.
+</string>
+    <string name="textodeapoio2">With a range of functions available to users, Ecomind allows people to make reports quickly and efficiently through a direct channel of communication with local authorities. This way, it is possible to report instances of pollution and other environmental issues, contributing to enabling authorities to act more swiftly and effectively in resolving these problems.
+</string>
+    <string name="textodeapoio3">Moreover, Ecomind provides resources for individuals to adopt more sustainable practices in their daily lives, such as tips for reducing energy and water consumption, as well as information about recycling and other environmental topics. With its innovative approach and commitment to promoting positive changes regarding the environment, Ecomind stands out as a valuable tool in the pursuit of sustainable solutions and the creation of a greener and healthier future for all.
+</string>
+
+    //Home
+    <string name="cliquenomapa">Click on the map below and access exclusive information related to the environment. Through this channel, you will have the opportunity to report irregular situations related to selective waste collection while also receiving tips and useful information on the subject.</string>
+
+    //perfil
+    <string name="nomedousuario">User name</string>
+    <string name="nomecpletodousuario">Users full name</string>
+    <string name="enderecodousuario">user address</string>
+    <string name="emaildousuario">user email</string>
+    <string name="listardenuncias">File a complaint now!</string>
+    <string name="listardenuncias2">see your complaints!</string>
+    <string name="ou">or</string>
+
+</resources>

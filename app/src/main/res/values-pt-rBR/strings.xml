@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //login
+    <string name="app_name">EcoMind</string>
+    <string name="login">Usuario ou email</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="continuarlogado">Continuar logado </string>
+
+    //tela explicativa do app
+    <string name="continuarparaperfil">Faça parte disso</string>
+    <string name="textodeapoio">Com a crescebte oreicyoação em relação ao meio ambiente e aos impactos da poluição, a teclonogia tem se mostrado uma aliada importante na busca por soluções sustentáveis. Nesse contexto, o aplicativo Ecomind surge com o objetivo de facilitar o combate contra os casos de poluição, sejam eles relacionados ao solo, à água, ou mesmo aos aspectos sonoros e visuais.</string>
+    <string name="textodeapoio2">Com uma série de funções disponíveis para o usuário, o Ecomind permite que as pessoas façam denúncias de forma ágil e eficiente, por meio de um canal direto de comunicação com as autoridades locais. Dessa forma, é possível reportar situações de poluição e outros porblemas ambientais, contribuindo para que as autoridades possam agir de forma mais rápida e eficaz na solução desses problemas.</string>
+    <string name="textodeapoio3">Além disso, o Ecomind oferece recursos para que as pessoas possam adotar práticas mais sustentáveis em seu dia a dia, como dicas para reduzir o consumo de energia e água, além de informações sobre coleta seletiva e outros temas relacionados ao meio ambiente. Com sua abordagem inovadora e sua preocupação em promover mudanças positivas em relação ao meio ambiente, o Ecomind se destaca como uma ferramenta valiosa na busca por soluções sustentáveis e na construção de um futuro mais verde e saudável para todos.</string>
+
+    //Home
+    <string name="cliquenomapa">Clique no mapa abaixo e tenha informações exclusivas relacionadas ao meio ambiente. Por meio deste canal, você terá a oportunidade de denunciar situações irregulares relacionadas à coleta seletiva e, ao mesmo tempo, recever dicas e informações úteis sobre o tema.</string>
+
+    //perfil
+    <string name="nomedousuario">Nome do usuário</string>
+    <string name="nomecpletodousuario">Nome completo do usuário</string>
+    <string name="enderecodousuario">Endereço do usuário</string>
+    <string name="emaildousuario">Email do usuário</string>
+    <string name="listardenuncias">Faça uma denuncia agora!</string>
+    <string name="listardenuncias2">Veja suas denúncias</string>
+    <string name="ou">or</string>
+
+
+</resources>

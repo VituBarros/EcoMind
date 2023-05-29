@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:id="@+id/Perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/nomedousuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/nomedousuario"
+        android:textColorHint="#050505"
+        app:layout_constraintEnd_toEndOf="@+id/Perfil"
+        app:layout_constraintStart_toStartOf="@+id/Perfil"
+        app:layout_constraintTop_toBottomOf="@+id/Perfil" />
+
+    <EditText
+        android:id="@+id/nomecpletodousuario"
+        android:layout_width="296dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/nomecpletodousuario"
+        android:inputType="textMultiLine"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/enderecodousuario"
+        android:layout_width="302dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="88dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/enderecodousuario"
+        android:inputType="textMultiLine"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/nomecpletodousuario"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/nomecpletodousuario"
+        app:layout_constraintTop_toBottomOf="@+id/nomecpletodousuario" />
+
+    <EditText
+        android:id="@+id/emaildousuario"
+        android:layout_width="290dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/emaildousuario"
+        android:inputType="textMultiLine"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/nomecpletodousuario"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/nomecpletodousuario"
+        app:layout_constraintTop_toBottomOf="@+id/nomecpletodousuario" />
+
+    <Button
+        android:id="@+id/listardenuncias"
+        android:layout_width="219dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="96dp"
+        android:hint="@string/listardenuncias"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/Perfil"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/Perfil"
+        app:layout_constraintTop_toBottomOf="@+id/Perfil" />
+
+    <Button
+        android:id="@+id/listardenuncias2"
+        android:layout_width="219dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="168dp"
+        android:hint="@string/listardenuncias2"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/nomecpletodousuario"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/nomecpletodousuario"
+        app:layout_constraintTop_toBottomOf="@+id/nomecpletodousuario" />
+
+    <TextView
+        android:id="@+id/ou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="356dp"
+        android:hint="@string/ou"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/nomedousuario"
+        app:layout_constraintStart_toStartOf="@+id/nomedousuario"
+        app:layout_constraintTop_toBottomOf="@+id/nomedousuario" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
