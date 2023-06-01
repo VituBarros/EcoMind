@@ -26,5 +26,10 @@
     <string name="listardenuncias2">Veja suas denúncias</string>
     <string name="ou">or</string>
 
+    //tela de denuncia
+    <string name="titulodadenuncia">Título da denuncia</string>
+    <string name="detalhesdadenuncia">Detalhe sua denuncia</string>
+    <string name="enviardenuncia">Enviar</string>
+
 
 </resources>

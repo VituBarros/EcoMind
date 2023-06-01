@@ -28,4 +28,9 @@
     <string name="listardenuncias2">see your complaints!</string>
     <string name="ou">or</string>
 
+    //tela de denuncia
+    <string name="titulodadenuncia">Complaint title</string>
+    <string name="detalhesdadenuncia">Detail your complaint</string>
+    <string name="enviardenuncia">Send</string>
+
 </resources>
