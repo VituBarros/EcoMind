@@ -3,15 +3,20 @@ package com.example.ecomind
 import android.app.Activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
+import com.example.ecomind.databinding.ActivityCadastrarDenunciasBinding
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
 
-    class CadastrarDenuncias : AppCompatActivity() {
-        private lateinit var binding : ActivityCadastrarDenunciasBinding
-        private lateinit var dbRef: DatabaseReference
+import layout.denuncias
 
 class CadastrarDenuncias : AppCompatActivity() {
+        private lateinit var binding : CadastrarDenuncias
+        private lateinit var dbRef: DatabaseReference
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-       val binding = ActivityCadastrarDenunciasBinding.inflate(layoutInflater)
+       val binding = CadastrarDenuncias.inflate(layoutInflater)
         setContentView(binding.root)
 
         var tituloDenu = binding.tituloDenu
@@ -19,7 +24,7 @@ class CadastrarDenuncias : AppCompatActivity() {
 
         dbRef = FirebaseDatabase.getInstance().getReference("Denuncia")
 
-        enviardenuncia.setOnClickListener {
+        btncadastro.setOnClickListener {
             var tituloDenu = binding.tituloDenu.text.toString()
             var detalheDenu = binding.detalheDenu.text.toString()
 
@@ -32,7 +37,7 @@ class CadastrarDenuncias : AppCompatActivity() {
 
             val empId = dbRef.push().key!!
 
-            val denuncia = DenunciaModelo(tituloDenu, detalheDenu)
+            val denuncia = denuncias(tituloDenu, detalheDenu)
 
             dbRef.child(empId).setValue(denuncia)
                 .addOnCompleteListener{

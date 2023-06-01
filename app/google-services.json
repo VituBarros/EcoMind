@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "799228396550",
+    "project_id": "ecomind-f43e6",
+    "storage_bucket": "ecomind-f43e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799228396550:android:16370a48a302743ffc2f87",
+        "android_client_info": {
+          "package_name": "com.example.ecomind"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1jO8jhR-V6HwVvgcKRrMqCghv_CBRxIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
